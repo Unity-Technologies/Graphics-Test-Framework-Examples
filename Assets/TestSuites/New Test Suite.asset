@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd97fccd0da2f5941a1bd1a6eb0a4b19, type: 3}
+  m_Name: New Test Suite
+  m_EditorClassIdentifier: 
+  initialModifiers: []
+  variations:
+  - name: nothing
+    modifiers: []
+  - name: float
+    modifiers:
+    - {fileID: 114649496795697434}
+  - name: string
+    modifiers:
+    - {fileID: 114489254170665996}
+  - name: float+string
+    modifiers:
+    - {fileID: 114985324825956994}
+    - {fileID: 114282004706452590}
+  testScenes:
+  - scenePath: Assets/Scenes/001-SimpleObjects.unity
+    enabled: 1
+    lightMapBake: 0
+    platformApis: []
+--- !u!114 &114282004706452590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65838631821f40b683ec71f12fd115aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stringValue: Turlututu chapeau pointu.
+--- !u!114 &114489254170665996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65838631821f40b683ec71f12fd115aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stringValue: Hello World
+--- !u!114 &114649496795697434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a464fdcf1241c5bc2c0da0709b6cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatValue: 42
+--- !u!114 &114985324825956994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a464fdcf1241c5bc2c0da0709b6cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatValue: 112358
